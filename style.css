@@ -55,18 +55,17 @@ margin: 0 50px;
     width:1200px;
     display: grid;
     grid-template-columns:1fr 1fr;
-    margin:60px;
-    column-gap: 5%;
+    margin: 40px auto;
     padding: 20px;
     line-height: 1.6;
+    column-gap: 5%;
  
 }
 #Latest-Videos
 {
     width:1200px;
-    margin:60px;
+    margin: 40px auto;
     padding: 20px;
-
 
 }
 #section-intro h1,#section-intro-2 h1,.container h1{
