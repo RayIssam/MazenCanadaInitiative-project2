@@ -87,6 +87,7 @@ button{
     padding: 20px 40px;
     border: 1px black solid;
     background-color: white;
+    cursor: pointer;
 
 }
 
