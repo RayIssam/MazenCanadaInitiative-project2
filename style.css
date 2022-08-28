@@ -108,7 +108,7 @@ button{
     filter: grayscale(0);
 }
 
-.latest-videos {
+#latest-videos {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content:center;
