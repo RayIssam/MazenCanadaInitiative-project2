@@ -7,10 +7,13 @@ fetch(url)
 function youtubeLatestVideos(data){
     console.log(data)
 data.forEach(element => {
-  //  let video= element.snippet.title;
- //   let title=element.snippet.thumbnails.title;
+    /*
+      let video= element.snippet.title;
+      let title=element.snippet.thumbnails.title;
+      let image=element.snippet.thumbnails.high.url;
+    */
+
     let videoId=element.id.videoId;
-   // let image=element.snippet.thumbnails.high.url;
     document.getElementById("latest-videos").innerHTML +=
       `<div> <iframe src="https://www.youtube.com/embed/${videoId}"></iframe></div>`
 });
