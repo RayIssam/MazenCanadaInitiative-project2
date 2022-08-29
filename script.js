@@ -5,7 +5,7 @@ fetch(url)
 .then(data =>{youtubeLatestVideos(data.items);})
 
 function youtubeLatestVideos(data){
-    console.log(data)
+    //console.log(data)
 data.forEach(element => {
     /*
       let title=element.snippet.thumbnails.title;
